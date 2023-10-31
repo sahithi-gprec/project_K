@@ -27,7 +27,7 @@ occasion = st.selectbox("Occasion", occasions)
 seasons = ['Fall', 'Summer', 'Winter', 'Spring']
 season = st.selectbox("Season", seasons)
 
-unique_colors = styles_df['baseColour'].unique()
+unique_colors = ['Navy Blue' 'Blue' 'Black' 'Grey' 'Green' 'Purple' 'White' 'Beige' 'Brown' 'Pink' 'Maroon' 'Red'  'Orange' 'Yellow' 'Gold' 'Multi' 'Magenta' 'Lavender' 'Sea Green' 'Cream' 'Peach' 'Olive' 'Burgundy'  'Rose' 'Lime Green' 'Turquoise Blue' 'Fluorescent Green']
 preferred_color = st.selectbox("Preferred Color", unique_colors)
 
 # Encode categorical variables
