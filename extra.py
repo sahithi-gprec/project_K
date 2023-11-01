@@ -92,7 +92,6 @@ if st.button("Generate Outfit Recommendations"):
     
     if recommended_items.empty:
         st.write("No items matching your preferences were found.")
-        st.write("Here are some items based on your preferences")
         user_gender_encoded = label_encoders['gender'].transform([gender])[0]
         user_preferred_color_encoded = label_encoders['baseColour'].transform([preferred_color])[0]
         # Find items based on the user's preferred gender and color
